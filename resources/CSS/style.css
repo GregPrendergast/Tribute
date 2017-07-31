@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: helvetica;
+  color: seashell;
+  opacity: 0.9px;
+  text-align: center;
+  background-color: black;
+  font-size: 14px;
+}
+
+ header {
+  background-color: black;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  align-items: center;
+  height: 100px;
+  z-index: 1;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header span {
+
+}
+
+.nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.nav span {
+  display: inline-block;
+  padding: 20px 10px;
+
+}
+
+.nav span a {
+  color: inherit;
+}
+
+
+.main {
+  padding-top: 69px; /* To offset fixed header */
+  width: 1200px;
+  margin: auto;
+}
+/* Mission Section */
+#mission {
+  height: 700px;
+  background-image: url(/Users/gregprendergast/Documents/projects/Tribute/resources/Images/woodstockcrowd.jpg);
+}
+
+.banner {
+  position: absolute;
+  background-color: black;
+  width: 1200px;
+  margin-top: 500px;
+  justify-content: center;
+  opacity: 0.6;
+
+
+}
+
+.photos {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+
+
+#gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photo {
+  padding: 10px;
+}
+
+.photo img{
+  height: 200px;
+  width: 300px;
+  display: block;
+}
+
+.photo span {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.photos h2 {
+  display: block;
+}
+
+.photos h4 {
+  display: block;
+}
+
+#locations {
+  height: auto;
+  width: 1200px;
+  margin: auto;
+  padding-top: 70px;
+  background-image: url(/Users/gregprendergast/Documents/projects/TeaCozy/resources/images/img-locations-background.jpg);
+}
+
+#locations h2 {
+  text-align: center;
+}
+
+.flex-locations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 1200px;
+}
+
+.locations {
+  padding: 10px;
+  margin: 5px 20px;
+  height: auto;
+  width: 300px;
+
+  flex-wrap: wrap;
+  opacity: 1;
+  background-color: black;
+  flex-direction: column;
+  display: flex;
+
+  justify-content: center;
+}
+
+.locations h3 {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.locations p {
+  text-align: center;
+}
+
+blockquote{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
